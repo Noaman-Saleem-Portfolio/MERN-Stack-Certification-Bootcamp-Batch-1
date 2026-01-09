@@ -1,83 +1,83 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .container {
-    width: 85%;
-    margin: 0 auto;
-    /* background-color: pink; */
+  width: 85%;
+  margin: 0 auto;
+  /* background-color: pink; */
 }
 
 .intro {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
 }
 
 .intro .bi-telephone {
-    position: relative;
-    top: 5px;
+  position: relative;
+  top: 5px;
 }
 
 .intro img {
-    width: 150px;
+  width: 150px;
 }
 
 .objectives {
-    padding: 20px 0px;
+  padding: 20px 0px;
 }
 
 .objectives h2 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .education {
-    padding: 20px 0px;
+  padding: 20px 0px;
 }
 
 .education h2 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .education table {
-    border-collapse: collapse;
-    text-align: left;
+  border-collapse: collapse;
+  text-align: left;
 }
 
 .education table td,
 .education table th {
-    padding: 10px;
+  padding: 10px;
 }
 
 .footer {
-    background-color: rgb(104, 104, 243);
-    padding: 20px 0px;
-    position: fixed;
-    /* top: 0; */
-    /* left: 0; */
-    /* right: 0; */
-    bottom: 0;
-    width: 85%;
-    display: flex;
-    justify-content: center;
-    gap: 25px;
+  background-color: rgb(104, 104, 243);
+  padding: 10px 0px;
+  /* position: fixed; */
+  /* top: 0; */
+  /* left: 0; */
+  /* right: 0; */
+  /* bottom: 0; */
+  /* width: 85%; */
+  display: flex;
+  justify-content: center;
+  gap: 25px;
 }
 
 .footer svg:hover {
-    color: rgb(105, 94, 94);
+  color: rgb(105, 94, 94);
 }
 
 .footer .facebook-icon {
-    color: blue;
+  color: blue;
 }
 
 .footer .githib-icon {
-    color: white;
+  color: white;
 }
 
 .footer .linkedin-icon {
-    color: purple;
+  color: purple;
 }
